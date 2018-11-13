@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+#container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #d81834;
+    }
+#container .boxs{
+    width: 60%;
+    margin: auto;
+    }
+#container .iconboxs{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    align-items: center;
+}
+#container .iconboxs .box1{
+    border: 1px solid white;
+    
+    flex-basis: 30%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+#container .iconbox2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items: center;
+    }
+#container .iconbox2 .box1{
+    border: 1px solid white;
+    
+    flex-basis: 47%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+#container .iconbox3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items: center;
+    }
+#container .iconbox3 .box1{
+    border: 1px solid white;    
+    flex-basis: 22.4%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+#container .iconbox4{
+    display: flex;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items: center;
+    }
+#container .iconbox4 .box1{
+    border: 1px solid white;    
+    flex-basis: 14.4%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+#container .iconbox5{
+    display: flex;
+    justify-content: space-evenly;
+    height: 4rem;
+    align-items: center;
+    }
+#container .iconbox5 .box1{
+    border: 1px solid white;    
+    flex-basis: 47.3%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+#container .iconbox5 .box2{
+    border: 1px solid white;    
+    flex-basis: 22.6%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+@media all and (max-width : 800px){
+    #header .header-wrappar{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}}
+@media all and (max-width : 500px){
+    #header .header-wrappar{
+        flex-direction: column;
+        align-items: center
+}
+    #header .header-wrappar .navbar ul{
+         flex-direction: column;
+         align-items: center;
+}}
